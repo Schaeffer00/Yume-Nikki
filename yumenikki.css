@@ -1,0 +1,120 @@
+@charset "UTF-8"
+
+br {
+    empty-cells: hide;
+}
+
+body {
+
+    background-color: black;
+    cursor: url("cursor.cur"),default ;
+}
+
+
+.monster1   {
+    position: relative;
+    left: -500px;
+    top: -500px;
+    width: 150px;
+    opacity: 40%;
+}
+
+.monster2   {
+    position: relative;
+    left: -500px;
+    top: -300px;
+    width: 150px;
+    opacity: 40%;
+}
+
+.monster3  {
+    position: relative;
+    left: 500px;
+    top: -830px;
+    width: 150px;
+    opacity: 40%;
+}
+
+    
+
+.monster4  {
+    position: relative;
+    left: 500px;
+    top: -620px;
+    width: 150px;
+    opacity: 40%;
+}
+
+
+::-webkit-scrollbar {
+    color: black;
+}
+    
+::-webkit-scrollbar-thumb {
+    background-color: rgb(87, 25, 25);
+    
+}
+
+.fundo {
+    position: relative;
+    top: -400px;
+    width: 900px;
+    height: 500px;
+}
+
+.fundo::selection {
+    background-color: rgb(92, 15, 15) ;
+}
+
+h3 {
+    position: relative;
+    color: white;
+    z-index: 1000px;
+    top: -850px;
+    width: 600px;
+    font-size: 35pt;
+    font-family: 'pixel';
+}
+    
+h3::selection {
+    background-color: rgb(92, 15, 15);
+}
+
+@font-face {
+    font-family: 'pixel' ;
+    src: url("Pixeltype.ttf");
+}
+
+.music {
+    position: relative;
+    top: -1500px; 
+}
+
+.stairs {
+    position: relative;
+    top: -1200px;
+    left: -560px;
+                
+}
+
+.red {
+    position: relative;
+    top: -1700px;
+    left: 660px;
+    height: 300px;
+    
+}
+
+.gaming {
+    position: fixed; 
+    top: 800px;
+    left: 1700px;
+}
+
+.field {
+    position: relative;
+    top: -900px;
+    width: 7s00px;
+    height: 600px;
+}
+
